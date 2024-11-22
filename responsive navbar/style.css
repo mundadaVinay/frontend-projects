@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    
+    background: url(./logo/bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding-top: 45px;
+}
+
+
+#logo{
+    margin: 0px 124px 0px 34px;
+}
+
+.navmenu ul{
+    display: flex;
+    width: 646px;
+    align-items: center;
+    margin-left: 28px;
+}
+
+
+.navmenu li{
+    list-style: none;
+}
+
+.navmenu>ul li{
+    margin-right: 24px;
+}
+
+.navmenu a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: oswald,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    padding: 7px;
+    color: #fff;
+    transition: all 0.33s; 
+}
+
+.navmenu a:hover{
+    color: rgb(255, 58, 58);
+}
+
+#active{
+    color: red;
+}
+
+.navmenu .dropdown{
+    display: none;
+}
+
+/* Social Media bar */
+
+.social-media{
+    display: flex;
+    align-items: center;
+    margin: 0 20px 0 107px;
+}
+
+.search-button{
+    padding-top: 11px;
+    height: 30px;
+    position: relative;
+    bottom: 11px;
+    
+}
+.search-button::after{
+    content: '|';
+    color: rgb(2, 169, 175);
+    font-size: 20px;
+    display: inline-block;
+    font-weight: 900;
+    position: relative;
+    bottom: 9px;
+    left: 1px;
+    padding: 0 4px;
+}
+
+.social-media img{
+    width: 19px;
+    background-color: black;
+    padding: 7px;
+}
+
+
+
+
+
+
+
+
+
